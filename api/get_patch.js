@@ -1,0 +1,1 @@
+export default function handler(req, res) { res.status(200).json({patch: "14.17.1"}); }
