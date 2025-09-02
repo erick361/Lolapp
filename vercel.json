@@ -5,7 +5,7 @@
     { "src": "api/**/*.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/$1" },      // API requests
-    { "src": "/(.*)", "dest": "/public/$1" }       // Archivos estáticos y index.html
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/public/$1" }
   ]
 }
